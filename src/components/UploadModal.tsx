@@ -1,4 +1,4 @@
-'use clietn';
+'use client';
 import uniqid from 'uniqid';
 import { FC, useState } from 'react';
 import Modal from './Modal';
