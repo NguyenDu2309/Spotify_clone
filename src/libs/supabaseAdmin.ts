@@ -173,6 +173,7 @@ const manageSubscriptionStatusChange = async (
                 : null,
         };
 
+        
     const { error } = await supabaseAdmin
         .from('subscriptions')
         .upsert([subscriptionData]);

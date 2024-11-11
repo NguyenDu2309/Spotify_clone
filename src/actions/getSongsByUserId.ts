@@ -7,6 +7,7 @@ const getSongsByUserId = async (): Promise<Song[]> => {
         cookies,
     });
 
+    
     const { data: sessionData, error: sessionError } =
         await supabase.auth.getSession();
 

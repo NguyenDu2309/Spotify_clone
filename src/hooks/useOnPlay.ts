@@ -3,6 +3,7 @@ import useAuthModal from './useAuthModal';
 import usePlayer from './usePlayer';
 import { useUser } from './useUser';
 
+
 const useOnPlay = (songs: Song[]) => {
     const player = usePlayer();
     const authModal = useAuthModal();

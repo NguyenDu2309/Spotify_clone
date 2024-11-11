@@ -28,4 +28,5 @@ const Search: FC<SearchProps> = async ({ searchParams }) => {
     );
 };
 
+
 export default Search;

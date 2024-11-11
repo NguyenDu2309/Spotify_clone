@@ -1,5 +1,6 @@
 import { create } from 'zustand';
 
+
 interface UploadModalStore {
     isOpen: boolean;
     onOpen: () => void;

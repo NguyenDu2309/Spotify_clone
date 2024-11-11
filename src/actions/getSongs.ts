@@ -7,6 +7,7 @@ const getSongs = async (): Promise<Song[]> => {
         cookies,
     });
 
+    
     const { data, error } = await supabase
         .from('songs')
         .select('*')

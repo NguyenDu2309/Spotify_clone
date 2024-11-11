@@ -13,4 +13,5 @@ const Error: FC<ErrorProps> = ({}) => {
     );
 };
 
+
 export default Error;

@@ -7,6 +7,7 @@ const getSongsByTitle = async (title: string): Promise<Song[]> => {
     const supabase = createServerComponentClient({
         cookies,
     });
+    
 
     if (!title) {
         const allSongs = await getSongs();
