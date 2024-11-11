@@ -111,6 +111,7 @@ export interface Database {
           }
         ]
       }
+      
       products: {
         Row: {
           active: boolean | null
