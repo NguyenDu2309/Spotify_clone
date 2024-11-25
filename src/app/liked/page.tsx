@@ -19,7 +19,7 @@ const Liked: FC<pageProps> = async ({}) => {
                                 fill
                                 alt="playlist"
                                 className="object-cover"
-                                src={'/images/liked.png'}
+                                src={'/images/like.png'}
                             />
                         </div>
                         <div className="flex flex-col gap-y-2 mt-4 md:mt-0">
